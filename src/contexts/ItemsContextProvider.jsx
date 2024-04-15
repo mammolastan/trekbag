@@ -1,3 +1,6 @@
+// This file is no longer used. This file was used to manage the state of the items in the list with the React Context API.This app is now using Zustand
+// This file contains the ItemsContextProvider component that provides the items state and the functions to manipulate it to its children components.
+
 import { createContext, useEffect, useState } from "react";
 import { initialItems } from "../lib/constants.js";
 
